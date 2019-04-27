@@ -4,7 +4,6 @@ Rails.application.routes.draw do
   get 'contact', to: 'static_pages#contact'
 
   get 'welcome', to: 'static_pages#welcome'
-  get 'meidaisai', to: 'static_pages#meidaisai'
 
   get 'login', to: 'sessions#new'
   post 'login', to: 'sessions#create'
